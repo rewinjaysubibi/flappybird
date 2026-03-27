@@ -48,6 +48,23 @@ body {
   font-weight: 700;
 }
 
+.author-label {
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  transform: translateX(-50%);
+  margin: 0;
+  padding: 5px 10px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: #163043;
+  background: rgba(255, 255, 255, 0.72);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.6);
+  pointer-events: none;
+}
+
 .overlay {
   position: absolute;
   inset: 0;
@@ -104,5 +121,10 @@ body {
 
   .overlay p {
     font-size: 0.92rem;
+  }
+
+  .author-label {
+    font-size: 0.72rem;
+    bottom: 8px;
   }
 }
